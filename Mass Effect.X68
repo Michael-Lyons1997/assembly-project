@@ -592,15 +592,15 @@ welcome_msg:    dc.b    '*******************************************************
                 dc.b    'Welcome to Mass Effect'
                 dc.b    $0D,$0A,0
 logo:           dc.b    ' __       __    __________ ',0
-logo1:                dc.b    '|**\     |**|  |**********|',0
-logo2:                dc.b    '|***\    |**|  |**********|',0
-logo3:                dc.b    '|****\   |**|       /****/',0
-logo4:                dc.b    '|**\**\  |**|      /****/',0
-logo5:                dc.b    '|**|\**\ |**|     /****/',0
-logo6:                dc.b    '|**| \**\|**|    /****/',0
-logo7:                dc.b    '|**|  \** **|   /****/',0
-logo8:                dc.b    '|**|   \****|  /****/',0
-logo9:                dc.b    '|**|    \***| /****/',0
+logo1:          dc.b    '|**\     |**|  |**********|',0
+logo2:          dc.b    '|***\    |**|  |**********|',0
+logo3:          dc.b    '|****\   |**|       /****/',0
+logo4:          dc.b    '|**\**\  |**|      /****/',0
+logo5:          dc.b    '|**|\**\ |**|     /****/',0
+logo6:          dc.b    '|**| \**\|**|    /****/',0
+logo7:          dc.b    '|**|  \** **|   /****/',0
+logo8:          dc.b    '|**|   \****|  /****/',0
+logo9:          dc.b    '|**|    \***| /****/',0
 logo_red:       dc.b    '        __ '
                 dc.b    $0D,$0A,0
 logo_red1:      dc.b    '       |**|'
@@ -610,7 +610,7 @@ logo_red2:      dc.b    '       |**|'
 logo_red3:      dc.b    '       /***|'
                 dc.b    $0D,$0A,0
 logo_red4:      dc.b    '       /****|'
-                dc.b    $0D,$0A.0
+                dc.b    $0D,$0A,0
 logo_red5:      dc.b    '       /*****|'
                 dc.b    $0D,$0A,0
 logo_red6:      dc.b    '       /******|'
@@ -702,6 +702,7 @@ health:     ds.w    1
 score:      ds.w    1 reserve space for score
 
     end start
+
 
 
 
